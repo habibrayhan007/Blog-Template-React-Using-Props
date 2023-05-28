@@ -1,0 +1,96 @@
+/**********Header Design Start***********/
+
+.header-container {
+    background: #1d2b48;
+    padding: 30px 0px 30px 0px;
+    color: #ffffff;
+}
+
+/**********Header Design End***********/
+
+/**********Card Design Start***********/
+
+.card-container {
+    margin: 0px 17%;
+    margin-top: 30px;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.single-card {
+    margin-bottom: 50px;
+}
+
+.card-category {
+    margin-top: 10px !important;
+    margin-bottom: -10px;
+}
+
+.card-category-text {
+    color: #f20075 !important;
+    cursor: pointer;
+}
+
+.card-category-text:hover {
+    color: #23527c !important;
+}
+
+.card-title {
+    font-size: 26px !important;
+    line-height: 26px !important;
+    font-weight: 700 !important;
+    margin-bottom: 20px !important;
+}
+
+.card-title:hover {
+    color: #f20075;
+    cursor: pointer;
+}
+
+.card-description {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    color: #000000 !important;
+}
+
+.publisher,
+.published-time {
+    color: #f20075 !important;
+}
+
+.pub-hover:hover {
+    color: #23527c !important;
+}
+
+/**********Card Design End***********/
+
+
+/**********Card Details Start***********/
+
+.card-details-container {
+    margin-top: 30px !important;
+    margin: 0px 29%;
+}
+
+.card-details-description {
+    font-size: 20px !important;
+    line-height: 30px !important;
+    color: #000000 !important;
+}
+
+.category-btn {
+    color: #000000 !important;
+    font-size: 17px !important;
+}
+
+.card-category-btn {
+    color: #f20075 !important;
+    margin-left: 5px;
+}
+
+.card-category-btn:hover {
+    color: #23527c !important;
+}
